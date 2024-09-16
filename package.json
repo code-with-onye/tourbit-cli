@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/code-with-onye/touria-package"
+    "url": "https://github.com/code-with-onye/touria-cli"
   },
   "scripts": {
     "build": "tsc",
