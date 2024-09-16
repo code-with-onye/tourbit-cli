@@ -79,6 +79,12 @@ export const addShadcnTour = async () => {
       "tour-popup.tsx",
       true
     );
+    createFolderAndFile(
+      "https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/components/FeatureToure2.tsx",
+      "./src/components",
+      "feature-tour.tsx",
+      true
+    );
   } else {
     createFolderAndFile(
       "https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/components/ShadcnTourPopup.tsx",
@@ -86,7 +92,14 @@ export const addShadcnTour = async () => {
       "tour-popup.tsx",
       true
     );
+    createFolderAndFile(
+      "https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/components/FeatureToure2.tsx",
+      "./src/components",
+      "feature-tour.tsx",
+      true
+    );
   }
+
   const child = spawn("npx shadcn@latest add button card", {
     stdio: "inherit",
     shell: true,
@@ -104,11 +117,23 @@ export const addTour = async () => {
       "tour-popup.tsx",
       true
     );
+    createFolderAndFile(
+      "https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/components/FeatureToure2.tsx",
+      "./src/components",
+      "feature-tour.tsx",
+      true
+    );
   } else {
     createFolderAndFile(
       "https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/components/TourPopup.tsx",
       "./components",
       "tour-popup.tsx",
+      true
+    );
+    createFolderAndFile(
+      "https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/components/FeatureToure2.tsx",
+      "./src/components",
+      "feature-tour.tsx",
       true
     );
   }
