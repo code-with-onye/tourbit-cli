@@ -38,9 +38,11 @@ const addShadcnTour = () => __awaiter(void 0, void 0, void 0, function* () {
     console.log("Adding touria shadcn Tour components...");
     if (fs_1.default.existsSync("./src")) {
         (0, _1.createFolderAndFile)("https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/components/ShadcnTourPopup.tsx", "./src/components", "tour-popup.tsx", true);
+        (0, _1.createFolderAndFile)("https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/components/FeatureToure2.tsx", "./src/components", "feature-tour.tsx", true);
     }
     else {
         (0, _1.createFolderAndFile)("https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/components/ShadcnTourPopup.tsx", "./components", "tour-popup.tsx", true);
+        (0, _1.createFolderAndFile)("https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/components/FeatureToure2.tsx", "./src/components", "feature-tour.tsx", true);
     }
     const child = (0, child_process_1.spawn)("npx shadcn@latest add button card", {
         stdio: "inherit",
@@ -53,9 +55,11 @@ const addTour = () => __awaiter(void 0, void 0, void 0, function* () {
     console.log("Adding touria Tour components...");
     if (fs_1.default.existsSync("./src")) {
         (0, _1.createFolderAndFile)("https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/components/TourPopup.tsx", "./src/components", "tour-popup.tsx", true);
+        (0, _1.createFolderAndFile)("https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/components/FeatureToure2.tsx", "./src/components", "feature-tour.tsx", true);
     }
     else {
         (0, _1.createFolderAndFile)("https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/components/TourPopup.tsx", "./components", "tour-popup.tsx", true);
+        (0, _1.createFolderAndFile)("https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/components/FeatureToure2.tsx", "./src/components", "feature-tour.tsx", true);
     }
 });
 exports.addTour = addTour;
