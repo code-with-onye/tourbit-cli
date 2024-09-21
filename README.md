@@ -1,9 +1,9 @@
-# Touria
+# Tourbit
 
 ![Built-in Retina Display](https://github.com/user-attachments/assets/d8f02b13-a160-4204-8d44-2d5299898c84)
 
 Many applications struggle with effective user onboarding and feature discovery. Static tutorials or extensive documentation often fail to engage users, leading to poor feature adoption.
-Touria is a customizable, interactive guide designed to introduce users to key features of your web application. Built with React and TypeScript, it creates an engaging onboarding experience by guiding users through your app's functionality step-by-step.
+Tourbit is a customizable, interactive guide designed to introduce users to key features of your web application. Built with React and TypeScript, it creates an engaging onboarding experience by guiding users through your app's functionality step-by-step.
 
 - Providing an interactive, guided tour of your application's key features
 - Highlighting specific elements on the page to draw user attention
@@ -23,12 +23,11 @@ Touria is a customizable, interactive guide designed to introduce users to key f
 
 ## Use Case Example
 
-Here's how you can implement touria in a React application:
+Here's how you can implement tourbit in a React application:
 
 ```shell
-  npx touria init
- ```
-
+  npx tourbit init
+```
 
 ```tsx
 import React, { useState } from "react";
@@ -82,3 +81,5 @@ const App: React.FC = () => {
 
 export default App;
 ```
+
+In this example, the tourbit component guides new users through the main sections of a dashboard application. It highlights the dashboard overview, explains the data visualization feature, and introduces the quick action buttons. This approach helps users quickly understand the app's core functionality, potentially increasing engagement and user satisfaction.
