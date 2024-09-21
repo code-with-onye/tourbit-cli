@@ -35,6 +35,12 @@ export const initTouria = () => {
       "usePositioning.ts",
       true
     );
+    createFolderAndFile(
+      "https://raw.githubusercontent.com/code-with-onye/touria-template/refs/heads/main/src/hooks/useLocalstorage.ts",
+      "./src/hooks",
+      "useLocalstorage.ts",
+      true
+    );
   } else {
     createFolderAndFile(
       "https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/hooks/useFeatureTourState.ts",
@@ -58,6 +64,12 @@ export const initTouria = () => {
       "https://raw.githubusercontent.com/code-with-onye/touria-template/main/src/hooks/usePositioning.ts",
       "./src/hooks",
       "usePositioning.ts",
+      true
+    );
+    createFolderAndFile(
+      "https://raw.githubusercontent.com/code-with-onye/touria-template/refs/heads/main/src/hooks/useLocalstorage.ts",
+      "./src/hooks",
+      "useLocalstorage.ts",
       true
     );
     createFolderAndFile(
