@@ -1,10 +1,10 @@
 {
   "name": "tourbit",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/code-with-onye/touria-cli"
+    "url": "https://github.com/code-with-onye/tourbit-cli"
   },
   "scripts": {
     "build": "tsc",

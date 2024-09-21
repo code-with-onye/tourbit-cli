@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { confirm } from "@inquirer/prompts";
-import { addShadcnTour, addTour, initTouria } from "./utils/initTouria";
+import { addShadcnTour, addTour, initTourbit } from "./utils/initTourbit";
 
 async function runCLI() {
   const answer = await confirm({
@@ -9,10 +9,10 @@ async function runCLI() {
   });
 
   if (answer) {
-    initTouria();
+    initTourbit();
     addShadcnTour();
   } else {
-    initTouria();
+    initTourbit();
     addTour();
   }
 }

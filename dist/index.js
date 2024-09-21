@@ -11,19 +11,19 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const prompts_1 = require("@inquirer/prompts");
-const initTouria_1 = require("./utils/initTouria");
+const initTourbit_1 = require("./utils/initTourbit");
 function runCLI() {
     return __awaiter(this, void 0, void 0, function* () {
         const answer = yield (0, prompts_1.confirm)({
             message: "Are you using shadcn-ui?",
         });
         if (answer) {
-            (0, initTouria_1.initTouria)();
-            (0, initTouria_1.addShadcnTour)();
+            (0, initTourbit_1.initTourbit)();
+            (0, initTourbit_1.addShadcnTour)();
         }
         else {
-            (0, initTouria_1.initTouria)();
-            (0, initTouria_1.addTour)();
+            (0, initTourbit_1.initTourbit)();
+            (0, initTourbit_1.addTour)();
         }
     });
 }
