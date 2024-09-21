@@ -1,5 +1,7 @@
 # Touria
 
+![Built-in Retina Display](https://github.com/user-attachments/assets/d8f02b13-a160-4204-8d44-2d5299898c84)
+
 Many applications struggle with effective user onboarding and feature discovery. Static tutorials or extensive documentation often fail to engage users, leading to poor feature adoption.
 Touria is a customizable, interactive guide designed to introduce users to key features of your web application. Built with React and TypeScript, it creates an engaging onboarding experience by guiding users through your app's functionality step-by-step.
 
