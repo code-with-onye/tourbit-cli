@@ -1,9 +1,13 @@
 # Tourbit
 
-![Built-in Retina Display](https://github.com/user-attachments/assets/d8f02b13-a160-4204-8d44-2d5299898c84)
 
 Many applications struggle with effective user onboarding and feature discovery. Static tutorials or extensive documentation often fail to engage users, leading to poor feature adoption.
-Tourbit is a customizable, interactive guide designed to introduce users to key features of your web application. Built with React and TypeScript, it creates an engaging onboarding experience by guiding users through your app's functionality step-by-step.
+
+Tourbit is a customizable, interactive guide designed to introduce users to key features of your web application. 
+Built with React and TypeScript, it creates an engaging onboarding experience by guiding users through your app's functionality step-by-step.
+
+![tourbit display](https://github.com/user-attachments/assets/e81f074e-f519-4ca6-8851-599e696f9302)
+
 
 - Providing an interactive, guided tour of your application's key features
 - Highlighting specific elements on the page to draw user attention
